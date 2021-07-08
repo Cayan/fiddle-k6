@@ -1,0 +1,17 @@
+{
+  "scenarios": {
+    "example_scenario": {
+      "executor": "shared-iterations",
+
+      "startTime": "10s",
+      "gracefulStop": "5s",
+      "env": { "EXAMPLEVAR": "testing" },
+      "tags": { "example_tag": "testing" },
+
+      "vus": 10,
+      "iterations": 200,
+      "maxDuration": "10s"
+    }
+  }
+}
+

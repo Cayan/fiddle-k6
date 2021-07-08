@@ -1,0 +1,100 @@
+Attaching to 02-config_app_1
+[36mapp_1  |[0m 
+[36mapp_1  |[0m           /\      |‾‾| /‾‾/   /‾‾/   
+[36mapp_1  |[0m      /\  /  \     |  |/  /   /  /    
+[36mapp_1  |[0m     /  \/    \    |     (   /   ‾‾\  
+[36mapp_1  |[0m    /          \   |  |\  \ |  (‾)  | 
+[36mapp_1  |[0m   / __________ \  |__| \__\ \_____/ .io
+[36mapp_1  |[0m 
+[36mapp_1  |[0m   execution: local
+[36mapp_1  |[0m      script: script.js
+[36mapp_1  |[0m      output: -
+[36mapp_1  |[0m 
+[36mapp_1  |[0m   scenarios: (100.00%) 1 scenario, 10 max VUs, 25s max duration (incl. graceful stop):
+[36mapp_1  |[0m            * example_scenario: 200 iterations shared among 10 VUs (maxDuration: 10s, startTime: 10s, gracefulStop: 5s)
+[36mapp_1  |[0m 
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (01.0s), 00/10 VUs, 0 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario • [   0% ] waiting  09.0s
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (02.0s), 00/10 VUs, 0 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario • [   0% ] waiting  08.0s
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (03.0s), 00/10 VUs, 0 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario • [   0% ] waiting  07.0s
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (04.0s), 00/10 VUs, 0 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario • [   0% ] waiting  06.0s
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (05.0s), 00/10 VUs, 0 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario • [   0% ] waiting  05.0s
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (06.0s), 00/10 VUs, 0 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario • [   0% ] waiting  04.0s
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (07.0s), 00/10 VUs, 0 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario • [   0% ] waiting  03.0s
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (08.0s), 00/10 VUs, 0 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario • [   0% ] waiting  02.0s
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (09.0s), 00/10 VUs, 0 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario • [   0% ] waiting  01.0s
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (10.0s), 00/10 VUs, 0 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario • [   0% ] waiting  00.0s
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (11.0s), 10/10 VUs, 0 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario   [   0% ] 10 VUs  01.0s/10s  000/200 shared iters
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (12.0s), 10/10 VUs, 10 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario   [   5% ] 10 VUs  02.0s/10s  010/200 shared iters
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (13.0s), 10/10 VUs, 18 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario   [   9% ] 10 VUs  03.0s/10s  018/200 shared iters
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (14.0s), 10/10 VUs, 21 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario   [  10% ] 10 VUs  04.0s/10s  021/200 shared iters
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (15.0s), 10/10 VUs, 30 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario   [  15% ] 10 VUs  05.0s/10s  030/200 shared iters
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (16.0s), 10/10 VUs, 40 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario   [  20% ] 10 VUs  06.0s/10s  040/200 shared iters
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (17.0s), 10/10 VUs, 50 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario   [  25% ] 10 VUs  07.0s/10s  050/200 shared iters
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (18.0s), 10/10 VUs, 60 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario   [  30% ] 10 VUs  08.0s/10s  060/200 shared iters
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (19.0s), 10/10 VUs, 70 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario   [  35% ] 10 VUs  09.0s/10s  070/200 shared iters
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (20.0s), 10/10 VUs, 78 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario   [  39% ] 10 VUs  10.0s/10s  078/200 shared iters
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (21.0s), 04/10 VUs, 84 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario ↓ [  39% ] 10 VUs  10.0s/10s  078/200 shared iters
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (21.1s), 00/10 VUs, 88 complete and 0 interrupted iterations
+[36mapp_1  |[0m example_scenario ✗ [  44% ] 10 VUs  11.1s/10s  088/200 shared iters
+[36mapp_1  |[0m 
+[36mapp_1  |[0m      data_received..................: 1.1 MB 50 kB/s
+[36mapp_1  |[0m      data_sent......................: 18 kB  855 B/s
+[36mapp_1  |[0m      dropped_iterations.............: 112    5.317762/s
+[36mapp_1  |[0m      http_req_blocked...............: avg=64.88ms  min=185ns    med=439ns    max=587.38ms p(90)=556.75ms p(95)=571.5ms 
+[36mapp_1  |[0m      http_req_connecting............: avg=17.25ms  min=0s       med=0s       max=160.83ms p(90)=136.77ms p(95)=155.36ms
+[36mapp_1  |[0m      http_req_duration..............: avg=155.84ms min=133.95ms med=156.92ms max=313.85ms p(90)=162.54ms p(95)=168.34ms
+[36mapp_1  |[0m        { expected_response:true }...: avg=155.84ms min=133.95ms med=156.92ms max=313.85ms p(90)=162.54ms p(95)=168.34ms
+[36mapp_1  |[0m      http_req_failed................: 0.00%  ✓ 0        ✗ 88  
+[36mapp_1  |[0m      http_req_receiving.............: avg=4.07ms   min=64.69µs  med=603.61µs max=148.21ms p(90)=1.36ms   p(95)=3.61ms  
+[36mapp_1  |[0m      http_req_sending...............: avg=126.87µs min=25.9µs   med=88.12µs  max=1.81ms   p(90)=221µs    p(95)=245.6µs 
+[36mapp_1  |[0m      http_req_tls_handshaking.......: avg=45.57ms  min=0s       med=0s       max=407.9ms  p(90)=392.85ms p(95)=401.81ms
+[36mapp_1  |[0m      http_req_waiting...............: avg=151.64ms min=133.2ms  med=156.38ms max=170ms    p(90)=161.43ms p(95)=166.13ms
+[36mapp_1  |[0m      http_reqs......................: 88     4.178242/s
+[36mapp_1  |[0m      iteration_duration.............: avg=1.22s    min=1.13s    med=1.15s    max=1.9s     p(90)=1.7s     p(95)=1.74s   
+[36mapp_1  |[0m      iterations.....................: 88     4.178242/s
+[36mapp_1  |[0m      vus............................: 4      min=0      max=10
+[36mapp_1  |[0m      vus_max........................: 10     min=10     max=10
+[36mapp_1  |[0m 

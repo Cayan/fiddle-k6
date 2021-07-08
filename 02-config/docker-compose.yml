@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  app:
+    image: loadimpact/k6:0.33.0
+    entrypoint: k6 run script.js
+    restart: unless-stopped
+    cap_add:
+      - NET_RAW
+    cap_drop:
+      - ALL
+    volumes:
+      - ./src:/home/k6
+      - ./config.json:/home/k6/.config/loadimpact/k6/config.json
+    networks:
+      - local_net
+
+networks:
+  local_net:
+
