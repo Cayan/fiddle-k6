@@ -1,0 +1,41 @@
+Attaching to 01-basic_app_1
+[36mapp_1  |[0m 
+[36mapp_1  |[0m           /\      |‾‾| /‾‾/   /‾‾/   
+[36mapp_1  |[0m      /\  /  \     |  |/  /   /  /    
+[36mapp_1  |[0m     /  \/    \    |     (   /   ‾‾\  
+[36mapp_1  |[0m    /          \   |  |\  \ |  (‾)  | 
+[36mapp_1  |[0m   / __________ \  |__| \__\ \_____/ .io
+[36mapp_1  |[0m 
+[36mapp_1  |[0m   execution: local
+[36mapp_1  |[0m      script: script.js
+[36mapp_1  |[0m      output: -
+[36mapp_1  |[0m 
+[36mapp_1  |[0m   scenarios: (100.00%) 1 scenario, 1 max VUs, 10m30s max duration (incl. graceful stop):
+[36mapp_1  |[0m            * default: 1 iterations for each of 1 VUs (maxDuration: 10m0s, gracefulStop: 30s)
+[36mapp_1  |[0m 
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (00m01.0s), 1/1 VUs, 0 complete and 0 interrupted iterations
+[36mapp_1  |[0m default   [   0% ] 1 VUs  00m01.0s/10m0s  0/1 iters, 1 per VU
+[36mapp_1  |[0m 
+[36mapp_1  |[0m running (00m01.7s), 0/1 VUs, 1 complete and 0 interrupted iterations
+[36mapp_1  |[0m default ✓ [ 100% ] 1 VUs  00m01.7s/10m0s  1/1 iters, 1 per VU
+[36mapp_1  |[0m 
+[36mapp_1  |[0m      data_received..................: 17 kB 9.7 kB/s
+[36mapp_1  |[0m      data_sent......................: 735 B 421 B/s
+[36mapp_1  |[0m      http_req_blocked...............: avg=598.44ms min=598.44ms med=598.44ms max=598.44ms p(90)=598.44ms p(95)=598.44ms
+[36mapp_1  |[0m      http_req_connecting............: avg=139.73ms min=139.73ms med=139.73ms max=139.73ms p(90)=139.73ms p(95)=139.73ms
+[36mapp_1  |[0m      http_req_duration..............: avg=143.38ms min=143.38ms med=143.38ms max=143.38ms p(90)=143.38ms p(95)=143.38ms
+[36mapp_1  |[0m        { expected_response:true }...: avg=143.38ms min=143.38ms med=143.38ms max=143.38ms p(90)=143.38ms p(95)=143.38ms
+[36mapp_1  |[0m      http_req_failed................: 0.00% ✓ 0        ✗ 1  
+[36mapp_1  |[0m      http_req_receiving.............: avg=525µs    min=525µs    med=525µs    max=525µs    p(90)=525µs    p(95)=525µs   
+[36mapp_1  |[0m      http_req_sending...............: avg=153.69µs min=153.69µs med=153.69µs max=153.69µs p(90)=153.69µs p(95)=153.69µs
+[36mapp_1  |[0m      http_req_tls_handshaking.......: avg=326.1ms  min=326.1ms  med=326.1ms  max=326.1ms  p(90)=326.1ms  p(95)=326.1ms 
+[36mapp_1  |[0m      http_req_waiting...............: avg=142.7ms  min=142.7ms  med=142.7ms  max=142.7ms  p(90)=142.7ms  p(95)=142.7ms 
+[36mapp_1  |[0m      http_reqs......................: 1     0.573228/s
+[36mapp_1  |[0m      iteration_duration.............: avg=1.74s    min=1.74s    med=1.74s    max=1.74s    p(90)=1.74s    p(95)=1.74s   
+[36mapp_1  |[0m      iterations.....................: 1     0.573228/s
+[36mapp_1  |[0m      vus............................: 1     min=1      max=1
+[36mapp_1  |[0m      vus_max........................: 1     min=1      max=1
+[36mapp_1  |[0m 
+[36m01-basic_app_1 exited with code 0
+[0m
